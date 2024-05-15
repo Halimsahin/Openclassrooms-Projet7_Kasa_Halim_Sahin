@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+  
+    @media screen and (min-width: $breakpoint-desktop) {
+      margin: 40px 100px 50px 100px;
+    }
+  
+    &__fig {
+      display: flex;
+      align-items: flex-start;
+      margin: 0;
+      width: 140px;
+  
+      @media screen and (min-width: $breakpoint-desktop) {
+        width: 200px;
+      }
+  
+      img {
+        width: 100%;
+      }
+    }
+  }
