@@ -15,8 +15,8 @@
         border-radius: 10px;
       }
     }
-    &__sombre {
-      background-color: $background-color;
+    &__clair {
+      background-color: $background__about-color;
       width: 100%;
       height: 100%;
       border-radius: 25px;
@@ -28,25 +28,4 @@
         border-radius: 10px;
       }
     }
-    &__txt {
-      position: absolute;
-      top: 28%;
-      left: 5.5%;
-      right: 32.5%;
-      bottom: 80%;
-      font-size: 24px;
-      font-weight: 500;
-      line-height: 100%;
-      color: $tertiary-color;
-      width: 217px;
-      height: 48px;
-      @media screen and (min-width: $breakpoint-desktop) {
-        top: 0;
-        left: 0;
-        right: 0;
-        @include flex-center;
-        @include WH-full;
-        @include font(48px, 500);
-      }
-    }
-  }
+}

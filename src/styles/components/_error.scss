@@ -1,0 +1,44 @@
+.error {
+    color: $primary-color;
+    @extend %flex-column;
+    margin: 22px 22px;
+
+    &__number {
+      @include flex-center;
+  
+      @include font(96px, 700);
+      margin: 190px 0 16px 0;
+  
+      @media screen and (min-width: $breakpoint-desktop) {
+        @include font(220px, 700);
+        margin: 0;
+      }
+    }
+    &__txt {
+      @extend %flex-end;
+      text-align: center;
+      @include font(16px, 500);
+      margin: 0 11%;
+  
+      @media screen and (min-width: $breakpoint-desktop) {
+        @include font(28px, 500);
+        margin: 70px 0 0 0;
+      }
+    }
+    &__link {
+      @extend %flex-end;
+      color: black;
+      @include font(14px, 500);
+      margin: 48px 0 32px 0;
+  
+      @media screen and (min-width: $breakpoint-desktop) {
+        @include font(18px, 500);
+        margin-top: 110px;
+      }
+  
+      &:hover,
+      &:focus {
+        text-decoration-line: underline;
+      }
+    }
+  }

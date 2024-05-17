@@ -3,19 +3,17 @@ $secondary-color: #f7f7f7;
 $tertiary-color: #fcfcfc;
 $footer-color: #000000;
 $background-color: rgba(0, 0, 0, 0.6);
+$background__about-color: rgba(0, 0, 0, 0.1);
 $linear-cards: linear-gradient(
   180deg,
   rgba(255, 255, 255, 0) 0%,
   rgba(0, 0, 0, 0.5) 100%
 );
 
-
-$about-background: $background-color
-  url(../images/aboutBanner.png);
+$about-background: $background-color url(../images/aboutBanner.png);
 $about-background-mobile: $background-color
   url(../images/backgroundbannermobile.png);
-$banner-background: $background-color
-  url(../images/homeBanner.png);
+$banner-background: $background-color url(../images/homeBanner.png);
 
 $breakpoints: (
   small: 350px,

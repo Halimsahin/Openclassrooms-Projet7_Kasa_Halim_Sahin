@@ -13,11 +13,11 @@
   
       &__title {
         @extend %flex-between;
-        padding: 0.5em 1em;
+        padding: 8px 16px;
         width: 100%;
         background-color: $primary-color;
         margin: 0 auto;
-        margin-top: 1.5em;
+        margin-top: 25px;
         border-radius: 5px;
   
         @media screen and (min-width: $breakpoint-desktop) {
@@ -47,9 +47,9 @@
   
         p {
           @include font(20px, 400);
-          color: $primary-color;
+          color: black;
           margin: 0 auto;
-          padding: 0.8em;
+          padding: 13px;
         }
       }
     }
