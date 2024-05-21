@@ -1,11 +1,16 @@
 import React from 'react';
 
-const Hote = () => {
+function Hote(props) {
     return (
-        <div>
-            
-        </div>
+      <>
+        <span className="nom-hote">{props.name}</span>
+        <img
+          className="photo-hote"
+          src={props.picture}
+          alt="Propriétaire"
+        />
+      </>
     );
-};
+}
 
 export default Hote;

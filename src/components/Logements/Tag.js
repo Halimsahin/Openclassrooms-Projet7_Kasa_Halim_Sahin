@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const Tag = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
+function Tag({ nom }) {
+  return (
+    <div className="tag-container">
+      <span className="tag-container__button">{nom}</span>
+    </div>
+  );
+}
 
 export default Tag;
